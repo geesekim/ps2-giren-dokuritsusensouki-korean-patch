@@ -2,7 +2,7 @@
 
 PS2 일본판 **지온독립전쟁기 본편**(`SLPS-25120`)용 한국어 패치입니다. 공략지령서용 패치와는 다릅니다.
 
-[단일 xdelta 다운로드](https://github.com/geesekim/ps2-giren-dokuritsusensouki-korean-patch/releases/download/v1.0/SLPS-25120_ko_v1.0.xdelta) · [적용 도구 포함 ZIP](https://github.com/geesekim/ps2-giren-dokuritsusensouki-korean-patch/releases/download/v1.0/GIREN_DOKURITSUSENSOUKI_PS2_KO_1.0.zip)
+[1.0 다운로드 — Release](https://github.com/geesekim/ps2-giren-dokuritsusensouki-korean-patch/releases/tag/v1.0)
 
 ## 주요 내용
 
@@ -14,7 +14,7 @@ PS2 일본판 **지온독립전쟁기 본편**(`SLPS-25120`)용 한국어 패치
 
 ## 적용
 
-일본판 원본 ISO에 단일 xdelta를 적용하세요. macOS 적용 도구를 사용하려면 ZIP 전체를 압축 해제하세요.
+Release에서 ZIP을 내려받아 전체 압축 해제한 뒤, 동봉된 단일 xdelta를 일본판 원본 ISO에 적용하세요.
 
 [자세한 적용 방법](output/1.0/적용안내.txt) · [검증 범위](output/1.0/runtime-summary.json) · [리소스 출처](output/1.0/RESOURCE-NOTICES.txt)
 
