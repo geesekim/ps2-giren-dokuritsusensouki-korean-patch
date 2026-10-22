@@ -1,0 +1,34 @@
+{
+  "release": "1.0",
+  "candidate": "RC054",
+  "source_product": "SLPS-25120",
+  "source_size": 3524034560,
+  "source_sha256": "2c120554db2c93725f8eefda17f4c1a6fa80218bb546bf25ec9438d3208c91ef",
+  "result_size": 3524034560,
+  "result_sha256": "d98b198cd9b8e88f6300c22bb3bf7d2d84b2ed0a748396dbf677bda32dad99c1",
+  "patch_sha256": "0f0fce9cbdf47f34356aa7d60930f991ce4d0e0c2d9b023573eea430ea18d9e9",
+  "patch_parts": [
+    {
+      "name": "SLPS-25120_ko_v1.0.xdelta.part01",
+      "bytes": 41943040,
+      "sha256": "36e377f94bc230a2c7d6ccc422c05e79ac24aa876309d2258ee7c95816b7cabf"
+    },
+    {
+      "name": "SLPS-25120_ko_v1.0.xdelta.part02",
+      "bytes": 41943040,
+      "sha256": "c5882de34dbf00a4b471ddc31c85852fa170a0a6560de5f8940f3cec0859c78e"
+    },
+    {
+      "name": "SLPS-25120_ko_v1.0.xdelta.part03",
+      "bytes": 30337398,
+      "sha256": "0998183844f6ef629b701fe3d111326b3f1acfb5ff58179144237cf1ba3bdbac"
+    }
+  ],
+  "patch_full_stream_byte_comparison": "PASS",
+  "candidate_build_readback": "PASS_SCOPED_396owned_bytes; outside3,524,034,164bytes exactRC053",
+  "original_parenthesis_tiles": "12/12 original native crops exact",
+  "new_font_and_slot_regressions": "RC0538expected failures; RC0544tests PASS",
+  "packaged_macOS_application_script": "PASS_ACTUAL_APPLY_RESULT_SHA_MATCH_EXISTING_DESTINATION_AND_UNSUPPORTED_SOURCE_REFUSED",
+  "full_game_runtime": "NOT_VERIFIED",
+  "publication_approval": "User approved newrepository/version1.0 currentRC054;2026-10-22"
+}

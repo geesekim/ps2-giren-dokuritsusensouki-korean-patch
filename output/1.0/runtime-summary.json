@@ -1,0 +1,31 @@
+{
+  "release": "1.0",
+  "candidate": "RC054",
+  "candidate_sha256": "d98b198cd9b8e88f6300c22bb3bf7d2d84b2ed0a748396dbf677bda32dad99c1",
+  "exact_candidate": {
+    "official_PCSX2": "2.9.138",
+    "mode": "Metal1x,depth conversion enabled,hacks/cheats/patches off",
+    "cold_boot": true,
+    "actual_screens": [
+      "slot1selected_slot2unselected",
+      "slot2selected_slot1unselected",
+      "information proposal1 parentheses",
+      "production proposal1 parentheses and PAGE header"
+    ],
+    "observed_clipping_interference": 0,
+    "normal_shutdown": true,
+    "normal_save_quit_fresh_process_load": "NOT_REPEATED_ON_RC054"
+  },
+  "historical_evidence": {
+    "candidate": "RC052",
+    "new_Hangul_scenario_start_and_normal_save_quit_new_process_load": "SCOPED_PASS",
+    "scope": "Previous candidate evidence; not transferred as RC054 roundtripPASS"
+  },
+  "remaining": [
+    "Complete campaign",
+    "All event/battle/ending triggers and every screen",
+    "Two-digit proposal count actual screen",
+    "All remaining dynamic-name consumers"
+  ],
+  "release_basis": "User explicitly approved publishing currentRC054 as new1.0 on2026-10-22; no fullgame completion claim"
+}

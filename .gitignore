@@ -1,0 +1,8 @@
+*.iso
+*.ISO
+*.ps2
+*.p2s
+*.ttf
+*.otf
+.DS_Store
+__pycache__/
