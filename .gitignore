@@ -6,3 +6,6 @@
 *.otf
 .DS_Store
 __pycache__/
+
+# Large patch is distributed through GitHub Release.
+/output/1.0/*.xdelta
