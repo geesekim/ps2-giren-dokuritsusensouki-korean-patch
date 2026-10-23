@@ -1,0 +1,56 @@
+{
+  "release": "1.1",
+  "candidate": "RC069",
+  "candidate_sha256": "9784fc9985afd8aef5eb311e082728660852e22141f11d3278cf5a1811a09323",
+  "exact_candidate": {
+    "exact_candidate_coldboot": true,
+    "official_version": "2.9.138",
+    "CRC": "56F79CF1",
+    "captioned_movies": 37,
+    "actual_cues": 519,
+    "missing": 0,
+    "clipping_overlap": 0,
+    "onset_minus_audio_ms": [
+      -49.28841166694298,
+      87.61408923184888
+    ],
+    "max_audio_fit_residual_ms": 1.0834318572672252,
+    "all37_natural_gallery_return": true,
+    "max_loader_error": 0,
+    "all_observed_return_subtitle_nodes": [],
+    "M23": "Additional zero-cue movie naturalreturn verified; not included519cue denominator",
+    "repeat": "M39 repeated naturalreturn",
+    "Start_skip": "M38 activecueStart at23.883s then resource release and actualgallery screenshot",
+    "identical_caption_limits": "M21 14->15 and M38 18->19 identical continuous rasters: only outer video boundaries measurable; both internal native cue indices separately observed",
+    "ordinary_save_load": "PASS_SAVE11_NORMAL_QUIT_FRESH_PROCESS_LOAD11_STATE_EQUAL"
+  },
+  "subtitle_total": {
+    "captioned_story_movies": 38,
+    "cues": 538
+  },
+  "source_review": {
+    "compared_captioned_movies": 37,
+    "compared_cues": 519,
+    "cumulative_corrected_cues": 27,
+    "changed_movies": 21,
+    "independent_labels_no_period": 13,
+    "M08": "EXACT_RC067_CORRECTION_PRESERVED;NO_NEW_RC069_M08_RUNTIME_CLAIM",
+    "status": "SOURCE_DRAFT_COMPARED_CORRECTED_WITH_RETAINED_UNCERTAINTIES",
+    "notes": "Japanese source is preserved ASR/reviewed transcript, not official script or human listening approval. Ambiguous words/register/polarity remain explicitly flagged; no blind reversal."
+  },
+  "style": "NanumSquareRound Bold22, white, black2px outline, spatial AA; no background panel",
+  "original_video_audio": "All82 original movie assets byte-preserved",
+  "M08_history": {
+    "candidate": "RC067",
+    "cues": 19,
+    "status": "PASS_SCOPED_EDITORIAL_PRESENTATION_PICTURE_SYNC; unchanged bytes and PTS in RC069; not rerun on RC069",
+    "source_AV_step": "About129ms shared step also reproduced without subtitles; no retiming of original media"
+  },
+  "limitations": [
+    "Original audio transcript/ASR uncertain items retained; not all translation words officially approved",
+    "Zero-cue43PSS and silentTITLE_BG excluded from translation; no allMM gameplay-route or whole-game claim",
+    "RC067 M08 shared original AV step evidence historical; no new M08 timing correction",
+    "Full campaign/all battles/events/endings and every UI screen NOT_VERIFIED"
+  ],
+  "release_basis": "User authorized minor publication if subtitle work has no blocking defects; exact candidate scoped runtime gates passed"
+}
