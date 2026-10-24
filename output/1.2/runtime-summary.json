@@ -1,0 +1,37 @@
+{
+  "release": "1.2",
+  "candidate": "RC070",
+  "candidate_sha256": "0519b1b2a5a7bb57821349e233afdc4ccff736cd598d540a6f16a82aec66be2e",
+  "changes": {
+    "production_categories": {
+      "車両": "차량",
+      "航空": "항공",
+      "航宙": "항주",
+      "艦船": "함선",
+      "終了": "종료"
+    }
+  },
+  "exact_candidate": {
+    "cold_boot": "PASS",
+    "normal_and_selected_five_labels": "PASS",
+    "clipping_or_overlap_observed": 0,
+    "MS_MA": "PRESERVED",
+    "exit_to_strategy": "PASS",
+    "ordinary_save_normal_quit_fresh_process_load": "PASS_NEW_SAVE12_STATE_EQUAL",
+    "after_load_labels": "PASS",
+    "protected_files": "EXACT",
+    "owned_processes_remaining": 0
+  },
+  "inherited_release_1_1": {
+    "candidate": "RC069",
+    "scope": "37 movies/519 cues actual presentation, synchronization, natural return, active skip and SAVE11 fresh LOAD11; M08 19 cues historical RC067 only",
+    "preservation_in_RC070": "All bytes outside R9 stored span exact RC069; video/audio/subtitle code and banks unchanged",
+    "fresh_RC070_movie_runtime": "NOT_RUN"
+  },
+  "font": "Production categories use existing HCRDotum menu glyphs; NanumSquareRound movie subtitle font unchanged",
+  "limitations": [
+    "Full campaign, all screens and every production item NOT_VERIFIED",
+    "User TURN13 identical-save reproduction NOT_RUN; shared R9 production menu tested on Federation TURN1",
+    "Prior subtitle source transcript/register uncertainties remain; no official script or human listening approval claim"
+  ]
+}

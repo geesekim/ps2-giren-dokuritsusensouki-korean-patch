@@ -1,0 +1,20 @@
+사용 리소스와 출처 — 지온독립전쟁기 본편 한국어 패치1.2
+
+게임 원작: BANDAI / 創通・サンライズ. 원작의 권리는 각 권리자에게 있습니다.
+이 패키지는 지원 원본에서 적용하는 차분 패치이며 게임 이미지나 BIOS를 포함하지 않습니다.
+
+함초롬돋움: 한글과컴퓨터 / 윤디자인. https://www.hancom.com/
+  본문·이름 및 일부 이미지 문자의 한글 래스터. TTF/OTF 파일은 배포하지 않습니다.
+  별도 HCRDotum_NOTICE.md를 참고하세요. OFL 글꼴로 표시하지 않습니다.
+솔뫼 김대건체: COPYRIGHT (C) SUMMITDESIGN ALL RIGHT RESERVED.
+  설치 글꼴 제작사: Design210, www.design210.com. 일부 시나리오 선택 이미지에 사용했습니다.
+나눔명조: NAVER / FONTRIX. https://hangeul.naver.com/font
+  기존 이미지 문자 제작 관련 고지. SIL OFL1.1 전문을 Nanum-OFL.txt로 동봉합니다.
+타이틀: 원본 형태를 참고한 별도 한글 도안. OpenAI image generation을 제작 과정에 사용했으며 게임용 색·음영·크기·배치를 조정했습니다.
+
+원본/완성 게임 이미지·BIOS·세이브·카드·검수 Numbers·폰트 원본 파일·비공개 개발 이력은 포함하지 않습니다.
+본 고지는 전체 패키지에 새로운 라이선스를 부여하지 않습니다.
+
+나눔스퀘어라운드 Bold: Copyright (c) 2017 NAVER Corporation.
+  Font designed by Sandoll Communications Inc. 동영상 자막 래스터에 사용했습니다.
+  SIL OFL1.1 고지·전문은 Nanum-OFL.txt에 포함합니다. 글꼴 원본은 동봉하지 않습니다.
