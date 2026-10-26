@@ -1,0 +1,29 @@
+{
+  "release": "1.4",
+  "candidate": "RC076",
+  "candidate_sha256": "f51b0868ac163f287a53dcbef57671c984a808b37a2dd0f7769326172146390f",
+  "changes": [
+    "Remove spaces from standalone corps unit/officer counts",
+    "Restore original full-cell separation for fatigue and morale labels",
+    "Show land/air and water/air labels as 육/공 and 수/공; reduce slash advance without changing glyph pixels",
+    "UI numerals use original glyphs; dialogue/prose numerals retain HCRDotum"
+  ],
+  "exact_candidate": {
+    "cold_boot": "PASS",
+    "representative_corps_labels_slash_UI_original_numbers": "PASS",
+    "HCR_prose_PS2_16_and_PAGE_UI_original_digits": "PASS",
+    "ordinary_SAVE16_normalquit_freshLOAD16_state_equal": "PASS",
+    "protected7files_content_size_mtime": "EXACT",
+    "owned_processes_remaining": 0
+  },
+  "fonts": "HCRDotum Korean/English/prose numerals; original UI numerals; inherited NanumSquareRound subtitles",
+  "inherited": "All previous release changes included; no new all-movie or full-game runtime claim",
+  "limitations": [
+    "Dynamic numeric printf/CORD route cases have emitted-instruction tests and loaded-byte guards; all three dynamic consumers were not individually replayed on-screen.",
+    "FONT0/22 slash advances tested in emitted instructions; requested corps FONT1 actual before and after restart verified.",
+    "Full campaign/every screen NOT_VERIFIED",
+    "Previously unverified76 compact expressions and7 over-capacity expressions remain open",
+    "Existing subtitle transcript uncertainties retained"
+  ],
+  "prose_polishing": "NOT_INCLUDED_USER_WITHDREW_REQUEST"
+}
