@@ -1,0 +1,43 @@
+{
+  "release": "1.3",
+  "candidate": "RC074",
+  "candidate_sha256": "8ad647a5d42c8c5d58a8fd72b47342ea6e8851c06c74c62cbefa08db23405a24",
+  "changes": [
+    "English and decimal/fullwidth/Roman numeral glyphs use HCRDotum like Korean body text",
+    "Turn and resource digit sprites use matching HCRDotum shapes inside existing cells",
+    "Retreat confirmation wraps into two lines inside its existing window",
+    "Includes previously approved spaces-only fixes in compact menu/proposal labels"
+  ],
+  "static": {
+    "native_English": 233,
+    "private_English_masks": 106,
+    "native_numeric": 74,
+    "private_numeric_masks": 46,
+    "numeric_sprites": 30,
+    "mismatches": 0,
+    "code_maps_palettes_cell_geometry_nonowned_pixels": "PRESERVED"
+  },
+  "exact_candidate": {
+    "cold_boot": "PASS",
+    "representative_help_save_list_turn_resources_HLV": "PASS",
+    "retreat_two_lines_and_cancel": "PASS",
+    "ordinary_SAVE15_normalquit_freshLOAD15_state_equal": "PASS",
+    "repeated_help_text_ROI_pixel_equal": true,
+    "protected6_files_content_and_mtime": "EXACT",
+    "owned_processes_remaining": 0
+  },
+  "inherited_spacing": {
+    "changed_expressions": 83,
+    "physical_fields": 3205,
+    "actual_RC071_expressions": 7,
+    "remaining76_expression_screens": "NOT_VERIFIED",
+    "capacity_exceeded7_expressions": "UNCHANGED_PENDING"
+  },
+  "inherited_subtitles": "Existing release evidence retained; no new RC074 all-movie runtime claim",
+  "font": "HCRDotum body English/numeric; NanumSquareRound movie subtitle unchanged",
+  "limitations": [
+    "Full campaign and every screen NOT_VERIFIED",
+    "Pre-rendered whole-word artwork and logos are separate from character-font cells",
+    "Previous subtitle transcript uncertainties and other open coverage limitations remain"
+  ]
+}
