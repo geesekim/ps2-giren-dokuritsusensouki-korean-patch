@@ -1,0 +1,17 @@
+{
+  "release": "1.5",
+  "candidate": "RC080",
+  "source_product": "SLPS-25120",
+  "source_size": 3524034560,
+  "source_sha256": "2c120554db2c93725f8eefda17f4c1a6fa80218bb546bf25ec9438d3208c91ef",
+  "result_size": 3529074688,
+  "result_sha256": "d05d75252b5ca939b34f5cf0a8cccdb978daf58f0c53ea65b0dd6957b9f11860",
+  "patch_filename": "SLPS-25120_ko_v1.5.xdelta",
+  "patch_bytes": 107821452,
+  "patch_sha256": "a9e77730550d80b850d14b60f4989bb31225216bc7e87e7e5c2da2febcc55c8c",
+  "patch_full_stream_byte_comparison": "PASS",
+  "candidate_build_readback": "PASS",
+  "packaged_macOS_application_script": "PASS_SINGLE_FILE_ACTUAL_APPLY_RESULT_SHA_MATCH",
+  "full_game_runtime": "NOT_VERIFIED",
+  "distribution": "Complete single cumulative xdelta; no split parts"
+}

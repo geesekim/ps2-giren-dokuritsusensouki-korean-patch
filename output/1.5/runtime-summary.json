@@ -1,0 +1,57 @@
+{
+  "release": "1.5",
+  "candidate": "RC080",
+  "candidate_sha256": "d05d75252b5ca939b34f5cf0a8cccdb978daf58f0c53ea65b0dd6957b9f11860",
+  "changes": [
+    "원문 コスト의 비용 번역75회/73필드/33자원 및 실행파일 문자열을 코스트로 통일; 원문 費用2회 유지",
+    "상단 YES/NO의 Y/E/S/N을 원본 UI 코드로 통일; O와 빗금은 이미 원본",
+    "생산창 기체수·턴·코스트의 원문 기준 가운데 정렬, 승인 UI 표제의 공백 정리",
+    "SELECT/PAGE/NEXT PAGE 및 UI용 생산 현황·제안 건수·기간에는 원본 영숫자 유지"
+  ],
+  "exact_candidate": {
+    "cold_boot": "PASS",
+    "phase_and_production_confirmation_native_YES_NO": "PASS",
+    "production_cost_and_cancel": "PASS",
+    "ordinary_SAVE16_normalquit_freshLOAD16_state_equal": "PASS",
+    "state": {
+      "turn": 43,
+      "resources": 1558,
+      "remaining_commands": [
+        0,
+        4,
+        3,
+        0,
+        0,
+        2
+      ]
+    },
+    "protection": "11 protected files bytes/mtime exact before authorized retirement of one duplicate QA baseline card;10 retained files and alias verified",
+    "owned_processes_remaining": 0
+  },
+  "static": {
+    "cost_occurrences": 75,
+    "cost_physical_fields": 73,
+    "original_hiyou_preserved": 2,
+    "full_resource_scan": "5308 top-level resources,88 nested SD0 plus executable; all77 previous cost occurrences reconciled",
+    "native_top_prompt_and_parent_preservation": "3 tests and final-image readback PASS"
+  },
+  "inherited_candidate_scopes": {
+    "RC077": "48/126 expressions observed on exact RC077; not RC080 full-screen proof",
+    "RC078": "14/16 added terms observed on exact RC078 and ordinary SAVE16/freshLOAD16; not RC080 full-screen proof"
+  },
+  "fonts": "HCRDotum Korean/English/prose numerals; original UI alphanumerics; inherited NanumSquareRound subtitles",
+  "limitations": [
+    "All75 cost consumers not individually visited in runtime",
+    "Earlier development-shortening proposal labels unavailable in QA saves; actual display NOT_VERIFIED",
+    "Remaining RC077 unvisited78 expressions/all consumers not verified",
+    "Every physical BGM-setting consumer not individually visited",
+    "Full campaign/every screen NOT_VERIFIED",
+    "Existing over-capacity expressions and subtitle transcript uncertainties retained"
+  ],
+  "preservation_notes": [
+    "Prior RC079 run observed a personal-card content/mtime change; writer not established; QA used only isolated cloned card",
+    "Earlier RC077 preparation changed personal emulator settings and card mtime; card content preserved; current RC080 protection baseline exact"
+  ],
+  "unchanged_by_conditional_request": "BUKI287/288 original is ﾋ-ﾄ剣 rather than ヒートソード; 히트검 retained",
+  "prose_polishing": "NOT_INCLUDED_USER_WITHDREW_REQUEST"
+}
