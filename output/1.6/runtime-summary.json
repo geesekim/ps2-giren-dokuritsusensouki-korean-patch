@@ -1,0 +1,106 @@
+{
+  "release": "1.6",
+  "candidate": "RC082",
+  "candidate_sha256": "e2fed60d2ce83a3737c9b2f2a3edd993c1eee67d78d24269c9ced3001c0e00a3",
+  "changes": [
+    "군사→군단목록→군단선택→배치의 좁은 창고 목록: 기체수 표제 잘림 수정",
+    "생산→창고정리의 폐기 목록: 창고내병기(재고/100)와 기체수 표제를 각 열 가운데로 조정"
+  ],
+  "exact_candidate": {
+    "cold_boot": "PASS",
+    "production_disposal_titles": "PASS_FIRST_AND_LAST_SELECTION",
+    "native_pixel_center_error": {
+      "warehouse_title": 0.11,
+      "unit_count": 0.51
+    },
+    "actual_stock": 9,
+    "user_report_stock": 7,
+    "stock_manipulated": false,
+    "ordinary_SAVE1_normalquit_freshLOAD1": "PASS",
+    "header_pixels_before_after_LOAD": "EXACT_ZERO_DIFFERENCE",
+    "state": {
+      "turn": 65,
+      "resources": 10409,
+      "remaining_commands": [
+        5,
+        5,
+        7,
+        7,
+        6,
+        5
+      ],
+      "warehouse_stock": 9
+    },
+    "protection": "Protected internal and external file contents and modification times exact during RC082 runtime",
+    "owned_processes_remaining": 0
+  },
+  "inherited_scopes": {
+    "RC081": "Exact RC081 narrow deployment header first/Zgok/last and SAVE1/fresh LOAD1 passed; RC082 preserves that consumer byte-for-byte",
+    "prior_release": {
+      "release": "1.5",
+      "candidate": "RC080",
+      "candidate_sha256": "d05d75252b5ca939b34f5cf0a8cccdb978daf58f0c53ea65b0dd6957b9f11860",
+      "changes": [
+        "원문 コスト의 비용 번역75회/73필드/33자원 및 실행파일 문자열을 코스트로 통일; 원문 費用2회 유지",
+        "상단 YES/NO의 Y/E/S/N을 원본 UI 코드로 통일; O와 빗금은 이미 원본",
+        "생산창 기체수·턴·코스트의 원문 기준 가운데 정렬, 승인 UI 표제의 공백 정리",
+        "SELECT/PAGE/NEXT PAGE 및 UI용 생산 현황·제안 건수·기간에는 원본 영숫자 유지"
+      ],
+      "exact_candidate": {
+        "cold_boot": "PASS",
+        "phase_and_production_confirmation_native_YES_NO": "PASS",
+        "production_cost_and_cancel": "PASS",
+        "ordinary_SAVE16_normalquit_freshLOAD16_state_equal": "PASS",
+        "state": {
+          "turn": 43,
+          "resources": 1558,
+          "remaining_commands": [
+            0,
+            4,
+            3,
+            0,
+            0,
+            2
+          ]
+        },
+        "protection": "11 protected files bytes/mtime exact before authorized retirement of one duplicate QA baseline card;10 retained files and alias verified",
+        "owned_processes_remaining": 0
+      },
+      "static": {
+        "cost_occurrences": 75,
+        "cost_physical_fields": 73,
+        "original_hiyou_preserved": 2,
+        "full_resource_scan": "5308 top-level resources,88 nested SD0 plus executable; all77 previous cost occurrences reconciled",
+        "native_top_prompt_and_parent_preservation": "3 tests and final-image readback PASS"
+      },
+      "inherited_candidate_scopes": {
+        "RC077": "48/126 expressions observed on exact RC077; not RC080 full-screen proof",
+        "RC078": "14/16 added terms observed on exact RC078 and ordinary SAVE16/freshLOAD16; not RC080 full-screen proof"
+      },
+      "fonts": "HCRDotum Korean/English/prose numerals; original UI alphanumerics; inherited NanumSquareRound subtitles",
+      "limitations": [
+        "All75 cost consumers not individually visited in runtime",
+        "Earlier development-shortening proposal labels unavailable in QA saves; actual display NOT_VERIFIED",
+        "Remaining RC077 unvisited78 expressions/all consumers not verified",
+        "Every physical BGM-setting consumer not individually visited",
+        "Full campaign/every screen NOT_VERIFIED",
+        "Existing over-capacity expressions and subtitle transcript uncertainties retained"
+      ],
+      "preservation_notes": [
+        "Prior RC079 run observed a personal-card content/mtime change; writer not established; QA used only isolated cloned card",
+        "Earlier RC077 preparation changed personal emulator settings and card mtime; card content preserved; current RC080 protection baseline exact"
+      ],
+      "unchanged_by_conditional_request": "BUKI287/288 original is ﾋ-ﾄ剣 rather than ヒートソード; 히트검 retained",
+      "prose_polishing": "NOT_INCLUDED_USER_WITHDREW_REQUEST"
+    }
+  },
+  "static": "Final ISO readback, protected spans and3 regression tests PASS; verified reverse-parent preimage fallback PASS",
+  "fonts": "HCRDotum Korean/English/prose numerals; original UI alphanumerics; inherited NanumSquareRound subtitles",
+  "limitations": [
+    "RC082 runtime scope is production disposal menu and ordinary save/load, not every screen or full campaign",
+    "Actual two/three-digit warehouse stocks not visited; original numeric formatting and relative spacing preserved",
+    "Inherited limitations remain as listed under prior_release"
+  ],
+  "GitHub_release_created": false,
+  "new_assets_uploaded": false
+}
